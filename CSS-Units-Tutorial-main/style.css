@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Playfair+Display&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 20px;
+}
+
+html {
+  font-size: 18px;
+}
+
+/* Task 1: Give               
+
+- Bird photos 320px width
+- Author photos 40px width and height
+
+- About sections 20px padding
+- Buttons horizontal padding 16px and vertical padding 24px
+
+- Heading 32px font size and paragraph 16px font size
+
+Task 2: Give                  RELATIVE TO THE PARENT'S ELEMENTS
+
+- Section `display: flex` and `align-items: center`
+
+- Bird photos and side section 50% width
+- Author photos 50% border radius
+    
+Task 3: Give                  RELATIVE TO THE VIEW POSTS
+
+- Section 100vh height
+- Heading 5vw font size
+
+Task 4: Give                  REM RELATIVES TO THE ROOT ELEMENT
+
+- Heading 2rem font size and paragraph 1rem font size
+- Button 0.75rem font size and `1em 1.5em` padding 
+
+Task 5: Give 
+
+- Paragraph 50ch max width    USE TO SET MAX-WIDTH
+*/
+
+.section {
+  background-color: #140d0b;
+  color: #fef6e4;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.bird-photo {
+  width: 320px;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.side-section {
+  width: 50%;
+}
+
+.about {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 20px;
+}
+
+.author {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;                                         /* to fit the image's sizes with defaults sizes*/
+
+}
+
+.about h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+ 
+  font-size: 2rem;
+  
+}
+
+.about p { 
+  font-size: 16px;
+  font-size: 1rem;
+  max-width: 50ch;                                        /*1 ch = width of zero*/
+}
+
+.about button {
+  border: none;
+  background-color: #feb51c;
+  color: #140d0b;
+  font-weight: bold;
+  padding: 24px 16px;
+  font-size: 1.5rem;
+  padding: 1em 0.75em;
+}
+
