@@ -37,15 +37,24 @@ body{
     position: relative;
 }
 .heading_header{
-    background-color: #F2F2F2;
+   
     width: 100%;
-    
+    background-color: #F2F2F2;
     align-items: center;
     display: flex;
     justify-content: space-between;
     position: fixed;
     padding: var(--spacing-sm);
     z-index: 2;
+    transition: background-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
+}
+.heading_header--white-background{
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+}
+.heading_header--white-background .logo path{
+    fill: var(--primary-color);
+    
 }
 .heading_header .logo path{
     fill: var(--primary-color);

@@ -1,0 +1,39 @@
+Boostrap5 's explainations:
+ms-auto: margin start auto
+
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+fixed-top: postision of navbar
+
+data-bs-target="#navmenu"></button> 
+then put this target id into a div.navbar-collapse to create hamburger button
+
+p.lead : make paragraph larger
+p, pt, px, py ... -:padding
+m.. : margin
+img-fluid: be bound into a container
+w-50 : 50% of width
+d-flex: display flex
+d-none d-sm-block: not display if width<small
+bi bi-laptop: bootstrap icon
+g-4: gap
+
+Card:
+<div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+               
+By setting #id in navbar, when we click on it, it will redirect to exactly where we create this id
+
+We need to set the position of footer= relative to set position of up-to-top button inside of it to absolute
+<footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Teacher Forward</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+           
+set if of button ="#enroll to use modal
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+
+            
+               
