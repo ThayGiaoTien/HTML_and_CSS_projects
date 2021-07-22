@@ -35,5 +35,5 @@ We need to set the position of footer= relative to set position of up-to-top but
 set if of button ="#enroll to use modal
 <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
 
-            
+fw-bold : text bold
                
